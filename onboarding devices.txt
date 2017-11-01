@@ -1,0 +1,12 @@
+Assume HIOT device installed, otherwise need to install HIOT
+- Device has no deployment associated with HIOT
+- Needs to subscribe to a standard channel (e.g. "O" for onboard)
+- How does it find an MQTT broker? SRV record in DNS?? Register Coordinator in DNS??
+-- SRV "coordinatorlocal.hiot.io" - need to register this on local DNS
+- Once connected, device sends UniqueID to Coordinator
+- "Empty" device created in Platform
+- Roles etc. configured from Platform
+- Can automate provisioning based on known device id (e.g. when device with Id x connects push out this config)
+- flags in device record to state whether the record is Configured (on the platform) and Provisioned (on the device)
+- config pushed to device
+- device online...

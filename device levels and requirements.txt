@@ -1,0 +1,19 @@
+0 - No support for MQTT or NodeJS (basic sensor/controller)
+1 - Supports MQTT but not NodeJS (Arduino device)
+2 - Supports MQTT and NodeJS (HIOT Compatible Device)
+3 - Includes device implementation (HIOT Device)
+4 - Includes Handlers and connects to sensor(s) (HIOT Sensor Device)
+5 - Includes Handlers and integrates with controllers (HIOT Controller Device)
+6 - Includes Handlers and runs Mosca (HIOT Command Broker)
+7 - Includes handlers and runs Mosca (HIOT Aggregator)
+8 - Includes UI to interact with HIOT Sensors and/or Controller Devices, runs Mosca (HIOT Commander)
+9 - Connects Deployment to Platform (HIOT Coordinator)
+10- Connects Platform to Deployment (HIOT Coordinator)
+11- Provides REST API for HIOT clients (HIOT Platform)
+12- Online and Mobile UI
+
+compatibility levels
+0 - requires handler to connect to it and doesn't support MQTT or NodeJS
+1 - Can send/receive messages via MQTT but cannot run NodeJS
+2 - Can run MQTT and NodeJS, but does not have HIOT device functionality installed 
+3 - HIOT device functionality installed

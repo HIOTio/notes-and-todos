@@ -1,0 +1,17 @@
+user module
+- authentication component
+- auth service
+- profile component
+- profile, menu & setting service
+- settings (notifications etc) component
+- notification service
+
+deployment module
+- deployment list
+- deployment details
+- deployment service (CRUD & details)
+
+deployment users module
+- deployment user list
+- user deployments list
+- deployment user service
