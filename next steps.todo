@@ -1,16 +1,16 @@
 - Build UI
--- Authentication
--- Cordova 
--- Deployment List
--- Deployment Details
--- Deployment Dashboard
--- Device Config (dump)
--- Device Roles
--- D3 deployment maps
--- Use JSON-Server for this in dev??
+-- [] Authentication
+-- [] Cordova 
+-- [X] Deployment List
+-- [] Deployment Details
+-- [] Deployment Dashboard
+-- [] Device Config (dump)
+-- [] Device Roles
+-- [] D3 deployment maps
+-- [] Use JSON-Server for this in dev??
 
 - Update Platform
--- Match functionality from UI
+-- [] Match functionality from UI
 
 - Update Coordinator_link
--- Implement integrations needed between deployment and platform
+-- [] Implement integrations needed between deployment and platform
