@@ -1,17 +1,19 @@
 user module
 - authentication component
-- auth service
-- profile component
-- profile, menu & setting service
-- settings (notifications etc) component
-- notification service
+-- [x]login
+-- [] register
+- [x] auth service
+- [x] profile component
+- [] profile, menu & setting service
+- [] settings (notifications etc) component
+- [x] notification service
 
 deployment module
-- deployment list
-- deployment details
-- deployment service (CRUD & details)
+- [x] deployment list
+- [] deployment details
+- [] deployment service (CRUD & details)
 
 deployment users module
-- deployment user list
-- user deployments list
-- deployment user service
+- [x] deployment user list
+- [] user deployments list
+- [x] deployment user service
