@@ -1,4 +1,6 @@
 Assume HIOT device installed, otherwise need to install HIOT
+
+: if HIOT Device:
 - Device has no deployment associated with HIOT
 - Needs to subscribe to a standard channel (e.g. "O" for onboard)
 - How does it find an MQTT broker? SRV record in DNS?? Register Coordinator in DNS??
@@ -10,3 +12,7 @@ Assume HIOT device installed, otherwise need to install HIOT
 - flags in device record to state whether the record is Configured (on the platform) and Provisioned (on the device)
 - config pushed to device
 - device online...
+
+: if MQTT only device
+- need to get the device to connect to an upstream HIOT device
+- looks like this may be device specific

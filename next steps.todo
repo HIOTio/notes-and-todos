@@ -1,51 +1,52 @@
 List 1 - ui back to device
 
 - Build UI
--- Authentication
--- Cordova 
--- Deployment List
--- Deployment Details
--- Deployment Dashboard
--- Device Config (dump)
--- Device Roles
--- D3 deployment maps
--- Use JSON-Server for this in dev??
+-- [] Authentication
+-- [] Cordova 
+-- [X] Deployment List
+-- [] Deployment Details
+-- [] Deployment Dashboard
+-- [] Device Config (dump)
+-- [] Device Roles
+-- [] D3 deployment maps
+-- [] Use JSON-Server for this in dev??
 
 - Update Platform
--- Match functionality from UI
+-- [] Match functionality from UI
 
 - Update Coordinator_link
 -- Implement integrations needed between deployment and platform
 
 
 list 2 - Device up
-- Finalise structure for project
+- [] Finalise structure for project
 
--- device project
---- MQTT setup
---- command line config/initialisation for new/test devices
---- include admin functions
---- onboarding
---- everything to initialise a device without any roles
---- MQTT to add/remove roles and accept handler files
---- logging levels
+-- [] device project
+--- [] MQTT setup
+--- [] command line config/initialisation for new/test devices
+--- [] include admin functions
+--- [] onboarding
+--- [] everything to initialise a device without any roles
+--- [] MQTT to add/remove roles and accept handler files
+--- [] logging levels
 
--- roles projects
---- aggregator
---- broker
---- commander
---- controller
---- coordinator
---- sensor
+-- [] roles projects
+--- [] aggregator
+--- [] broker
+--- [] commander
+--- [] controller
+--- [] coordinator
+--- [] sensor
 
 Build script
--- NPM script to create test environment
---- include multiple devices with/without mosca
---- rand-sensor and demo-controllers
---- one aggregator
---- one broker 
---- coordinator
---- platform
---- ui
---- commander
+-- [] NPM script to create test environment
+--- [] include multiple devices with/without mosca
+--- [] rand-sensor and demo-controllers
+--- [] one aggregator
+--- [] one broker 
+--- [] coordinator
+--- [] platform
+--- [] ui
+--- [] commander
 
+-- [] Implement integrations needed between deployment and platform
