@@ -1,3 +1,5 @@
+List 1 - ui back to device
+
 - Build UI
 -- Authentication
 -- Cordova 
@@ -14,3 +16,36 @@
 
 - Update Coordinator_link
 -- Implement integrations needed between deployment and platform
+
+
+list 2 - Device up
+- Finalise structure for project
+
+-- device project
+--- MQTT setup
+--- command line config/initialisation for new/test devices
+--- include admin functions
+--- onboarding
+--- everything to initialise a device without any roles
+--- MQTT to add/remove roles and accept handler files
+--- logging levels
+
+-- roles projects
+--- aggregator
+--- broker
+--- commander
+--- controller
+--- coordinator
+--- sensor
+
+Build script
+-- NPM script to create test environment
+--- include multiple devices with/without mosca
+--- rand-sensor and demo-controllers
+--- one aggregator
+--- one broker 
+--- coordinator
+--- platform
+--- ui
+--- commander
+
