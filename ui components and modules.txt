@@ -10,8 +10,8 @@ user module
 
 deployment module
 - [x] deployment list
-- [] deployment details
-- [] deployment service (CRUD & details)
+- [x] deployment details
+- [x] deployment service (CRUD & details)
 
 deployment users module
 - [x] deployment user list

@@ -4,12 +4,11 @@ List 1 - ui back to device
 -- [] Authentication
 -- [] Cordova 
 -- [X] Deployment List
--- [] Deployment Details
+-- [X] Deployment Details
 -- [] Deployment Dashboard
 -- [] Device Config (dump)
 -- [] Device Roles
 -- [] D3 deployment maps
--- [] Use JSON-Server for this in dev??
 
 - Update Platform
 -- [] Match functionality from UI
